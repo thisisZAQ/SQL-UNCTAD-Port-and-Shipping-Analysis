@@ -1,5 +1,7 @@
 # UNCTAD-Port-and-Shipping-Analysis
-<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/b1055f0c-9cfa-4b82-8f0d-83890c09ffd1" />
+
+<table><tr><td><img src="https://github.com/user-attachments/assets/16fc189b-5e38-4dbc-bf31-ffa19eab1614" ></td><td><img src="https://github.com/user-attachments/assets/1ba4c1be-f308-4e7e-9a15-47a214236e2a"></td></tr></table>.
+
 
 Deriving insights from Port Liner Shipping Connectivity Index (Port LSCI) data by analyzing global and country-level maritime trade accessibility and infrastructure quality over time. Since this index is a key indicator of a country’s integration into global maritime networks, my analysis touches on trade, development, economic resilience, logistics efficiency, and geopolitical shifts.
 
