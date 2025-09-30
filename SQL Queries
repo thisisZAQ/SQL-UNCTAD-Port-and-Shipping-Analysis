@@ -1,6 +1,0 @@
-SELECT economy_label,
-       MAX(index_value) - MIN(index_value) AS volatility
-FROM liner_connectivity
-GROUP BY economy_label
-ORDER BY volatility DESC
-LIMIT 10;
