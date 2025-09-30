@@ -51,3 +51,15 @@ SELECT economy_label,
        ROUND(((index_value - rolling_avg) / rolling_avg) * 100, 2) AS pct_change
 FROM rolling
 WHERE ((index_value - rolling_avg) / rolling_avg) * 100 < -10;
+
+--port importance within a country
+SELECT p.port_label,
+       p.quarter_label,
+       p.index_value,
+       l.index_value AS country_index,
+       ROUND((p.index_value::decimal / l.index_value) * 100, 2) AS port_share
+FROM port_liner p
+JOIN liner_connectivity l
+  ON p.quarter_label = l.quarter_label
+ AND p.port_label LIKE l.economy_label || '%'
+ORDER BY p.quarter_label, port_share DESC;
